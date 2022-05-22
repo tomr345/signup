@@ -44,6 +44,15 @@ body {
     font-size: 1.25rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.75rem;
+}
+
 .top, .bottom {
     background-color: #dbdbdb;
 }
