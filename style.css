@@ -31,9 +31,20 @@ body {
     grid-template-columns: 1fr;
 }
 
+.row {
+    display: flex;
+    gap: 4rem;
+}
+
 .box {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .top {
@@ -44,9 +55,19 @@ body {
     font-size: 1.25rem;
 }
 
+#lets {
+    margin: 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
+    gap: 0.25rem;
+}
+
+input {
+    width: 13rem;
+    padding: 5px;
 }
 
 label {
